@@ -371,6 +371,10 @@
         "outbound": "AI-Service"
       },
       {
+        "domain_suffix": "sexlikereal.com",
+        "outbound": "Streaming-Media"
+      },
+      {
         "rule_set": ["netflixsite", "hbo", "disney", "hulu"],
         "outbound": "Streaming-Media"
       },

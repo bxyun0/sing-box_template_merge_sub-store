@@ -20,15 +20,10 @@ dns:
     - 1.1.1.1
     - 8.8.8.8
   proxy-server-nameserver:
-    - 119.29.29.29
-    - 114.114.114.114
+    - system
   nameserver-policy:
-    "+.cn":
-      - 119.29.29.29
-      - 114.114.114.114
-    "rule-set:cnsite":
-      - 119.29.29.29
-      - 114.114.114.114
+    "+.cn,private,rule-set:cnsite":
+      - system
   enhanced-mode: fake-ip
   fake-ip-range: 11.0.0.0/16
   fake-ip-range6: 3ffe::/16
